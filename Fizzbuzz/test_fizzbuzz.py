@@ -1,9 +1,11 @@
+'''
+    FizzBuzz
+                '''
 
-
-# case 3  done 
-# 5 div 
-# 3 & 5 
-# not 3 and 5 
+# Div by 3              -->      Fizz
+# Div by 5              -->      Buzz
+# Div by both 3 & 5     -->      FizzBuzz
+# Not Div by 3 and 5    -->      Empty Str or \n 
 
 def fizzbuzz(n):
     if n % 3 == 0 and n % 5 == 0: 
@@ -20,8 +22,9 @@ def fizzbuzz100():
     for i in range(1,101): 
         result = fizzbuzz(i)
         s += result + "\n"
-    return s         
-
+    return s     
+    
+# Test Cases : 
 def test_fizzbuzz_should_return_fizz_if_number_is_divisible_by_3():
     expected_result = fizzbuzz(6)
     assert expected_result == 'Fizz'
