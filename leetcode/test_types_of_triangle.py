@@ -27,8 +27,9 @@ def test_triangle_is_equilateral():
 
 
 def test_triangle_is_isosceles():
-    expected_res = triangle_is(20,15,15)
-    assert expected_res == 'isosceles'
+    assert  triangle_is(20,15,15) == 'isosceles'
+    assert  triangle_is(15,15,20) == 'isosceles'
+    assert  triangle_is(15,20,15) == 'isosceles'
     
 def test_triangle_is_scalene():
     expected_res = triangle_is(10,15,20)

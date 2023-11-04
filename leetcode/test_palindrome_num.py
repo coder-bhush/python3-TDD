@@ -1,11 +1,6 @@
 
-
-
-
-
-
 # number == reverse number
-# not palindrome num. expected_res = false
+# not palindrome num. then expected_res = false
 # negative num not be palindrome 
 
 def is_palindrome(n):
