@@ -1,13 +1,15 @@
-# Triangle is equilateral
-# Triangle is isosceles
-# Triangle is scalene
+'''
+1) Triangle is scalene 
+2) Triangle is isosceles
+3) Triangle is equilateral
+
+'''
 
 
 #Solution:
-# How can i solve it :
     # Equilateral -->   Length of all 3 sides are same 
     # Isosceles  -->   Length of any Two sides are Same 
-    # Scalene     -->   Length of all 3 sides are different 
+    # Scalene    -->   Length of all 3 sides are different 
    
 
 def triangle_is(side1,side2,side3):
