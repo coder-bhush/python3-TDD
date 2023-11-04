@@ -1,0 +1,23 @@
+
+type_of_triangle
+    equilateral, scalar,isosclees
+
+https://leetcode.com/problems/valid-parentheses/description/
+https://leetcode.com/problems/merge-two-sorted-lists/description/
+
+
+income_tax_calculator
+    input = annual income 
+    output = tax to be paid 
+
+    https://cleartax.in/s/income-tax-slabs
+
+    250000 Nil 
+    250000 -  5%
+    500001 - 100000 20%
+   1000001 -        30%
+     
+
+
+     
+
