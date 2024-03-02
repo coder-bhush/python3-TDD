@@ -14,6 +14,8 @@ Calculate taxes have to pay on annual income :
          30% tax On Taxable amt            """
 
 
+
+
 def income_tax_calculator(annual_income):
     taxable_income = annual_income - 250000
 

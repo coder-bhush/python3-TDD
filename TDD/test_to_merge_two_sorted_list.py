@@ -26,3 +26,7 @@ def test_merge_two_lists_having_some_content():
 def test_merge_two_empty_lists():
     expected_res = merge_two_sorted_lists([], [])
     assert expected_res == []
+
+def test_merge_two_empty_lists():
+    expected_res = merge_two_sorted_lists([2,6,4,8], [])
+    assert expected_res == [2,4,6,8]
